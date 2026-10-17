@@ -1,0 +1,196 @@
+{
+  "HomePage": {
+    "badge": "Premium Real Estate Marketplace",
+    "title": "Find The Perfect Place To Call Home",
+    "description": "Discover luxury apartments, modern homes, and premium properties in the best locations around the world."
+  },
+
+  "Navbar": {
+    "home": "Home",
+    "properties": "Properties",
+    "marketplace": "MarketPlace",
+    "login": "Login",
+    "logout": "Logout",
+    "addProperty": "Add Property"
+  },
+
+  "SearchBox": {
+    "placeholder": "Search for city, neighborhood, or address",
+    "button": "Search Properties"
+  },
+
+  "RecentProperties": {
+    "badge": "New Listings",
+    "title": "Discover Recently Added Properties",
+    "description": "Browse the latest homes, apartments, villas, and investment opportunities added to our marketplace by trusted property owners and agents."
+  },
+
+  "PropertyCard": {
+    "forRent": "For Rent",
+    "forSale": "For Sale",
+    "month": "/Month",
+    "beds": "Beds",
+    "bathrooms": "Bathrooms",
+    "sqft": "sq ft"
+  },
+
+  "Properties": {
+    "1": {
+      "title": "Modern Luxury Villa",
+      "location": "Cairo, Egypt",
+      "type": "Villa"
+    },
+    "2": {
+      "title": "Cozy Family Apartment",
+      "location": "Giza, Egypt",
+      "type": "Apartment"
+    },
+    "3": {
+      "title": "Elegant Downtown Apartment",
+      "location": "New Cairo, Egypt",
+      "type": "Apartment"
+    },
+    "4": {
+      "title": "Spacious Beach House",
+      "location": "Alexandria, Egypt",
+      "type": "House"
+    },
+    "5": {
+      "title": "Modern Duplex Home",
+      "location": "6th of October, Egypt",
+      "type": "Duplex"
+    },
+    "6": {
+      "title": "Premium Penthouse Suite",
+      "location": "London, United Kingdom",
+      "type": "Penthouse"
+    }
+  },
+
+  "PropertiesPage": {
+    "title": "Properties"
+  },
+
+  "MarketplacePage": {
+    "title": "Explore",
+    "filter": "Filter"
+  },
+
+  "SingleProperty": {
+    "forSale": "For Sale",
+    "title": "Modern Luxury Apartment",
+    "location": "New York, USA",
+    "area": "2200 sqft",
+    "rooms": "7 rooms",
+    "baths": "7 baths",
+    "priceLabel": "Property Price",
+    "aboutTitle": "About This Property",
+    "description": "Experience luxury living in this modern apartment located in one of the most desirable neighborhoods in the city. This property boasts a stunning view of the city skyline and is perfect for those who want to live in the heart of the action."
+  },
+
+  "EmailForm": {
+    "agent": "Agent",
+    "name": "Your Name",
+    "email": "Your Email",
+    "phone": "Your Phone",
+    "message": "Your Message",
+    "send": "Send Email"
+  },
+
+  "Button": {
+    "loading": "Loading...."
+  },
+  "LoginModal": {
+  "title": "Login",
+  "welcome": "Welcome Back",
+  "description": "Login to your account",
+  "email": "Email",
+  "password": "Password",
+  "emailRequired": "Email is required",
+  "emailInvalid": "Enter a valid email address",
+  "passwordRequired": "Password is required",
+  "passwordMin": "Password must be at least 6 characters",
+  "continue": "Continue",
+  "or": "OR",
+  "google": "Continue with Google",
+  "noAccount": "Don't have an account?",
+  "register": "Register"
+},
+"RegisterModal": {
+  "title": "Register",
+  "welcome": "Welcome to NextEstate",
+  "description": "Create an account",
+  "name": "Name",
+  "email": "Email",
+  "password": "Password",
+  "nameRequired": "Name is required",
+  "nameMin": "Name must be at least 3 characters",
+  "emailRequired": "Email is required",
+  "emailInvalid": "Enter a valid email address",
+  "passwordRequired": "Password is required",
+  "passwordMin": "Password must be at least 6 characters",
+  "continue": "Continue",
+  "or": "OR",
+  "google": "Continue with Google",
+  "haveAccount": "Already have an account?",
+  "login": "Login"
+},
+"FilterModal": {
+  "title": "Filter Properties",
+  "step": "Step {current} of {total}",
+  "type": "Select property type",
+  "location": "Select property location",
+  "price": "Select property price",
+  "locationLabel": "Location",
+  "addressLabel": "Address",
+  "minPrice": "Min Price",
+  "maxPrice": "Max Price",
+  "back": "Back",
+  "next": "Next",
+  "apply": "Apply Filter"
+},
+"CreatePropertyModal": {
+  "title": "Create a new listing",
+  "step": "Step {current} of {total}",
+  "type": "Select property type",
+  "location": "Where is your property located?",
+  "details": "Share some basics about your place",
+  "features": "Property description",
+  "image": "Upload property image",
+  "pricing": "Set property price",
+  "locationLabel": "Location",
+  "addressLabel": "Address",
+  "bedrooms": "Bedrooms",
+  "bedroomsSubtitle": "How many bedrooms?",
+  "bathrooms": "Bathrooms",
+  "bathroomsSubtitle": "How many bathrooms?",
+  "parking": "Parking spaces",
+  "parkingSubtitle": "How many parking spaces?",
+  "area": "Property Area (sqft)",
+  "titleLabel": "Property Title",
+  "descriptionLabel": "Description",
+  "descriptionPlaceholder": "Write a clear description...",
+  "sale": "Sale",
+  "rent": "Rent",
+  "salePrice": "Sale Price ($)",
+  "rentPrice": "Monthly Rent ($)",
+  "back": "Back",
+  "next": "Next",
+  "create": "Create listing"
+},
+"ImageUpload": {
+  "upload": "Click to upload",
+  "count": "Upload 1 image",
+  "alt": "Property image preview"
+},
+
+"PropertyTypes": {
+  "apartment": "Apartment",
+  "house": "House",
+  "commercial": "Commercial",
+  "land": "Land",
+  "warehouse": "Warehouse",
+  "hotel": "Hotel"
+}
+
+}

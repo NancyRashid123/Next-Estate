@@ -6,7 +6,11 @@ export const auth = betterAuth({
   database: prismaAdapter(prisma, {
     provider: "postgresql", // or "mysql", "sqlite", ...etc
   }),
+  
   baseURL: process.env.BETTER_AUTH_URL,
+   trustedOrigins: [
+    "https://next-estate-plum.vercel.app",
+  ],
   socialProviders: {
     google: {
       clientId: process.env.GOOGLE_CLIENT_ID as string,

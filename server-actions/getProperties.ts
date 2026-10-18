@@ -10,7 +10,7 @@ export interface GetPropertiesParams {
 }
 export async function getProperties( params?: GetPropertiesParams) {
     try { 
-        const baseURL = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"; 
+        const baseURL = process.env.NEXT_BASE_URL || "http://localhost:3000"; 
         const response = await axios.get(`${baseURL}/api/properties`, { params });
         return response.data;
       } catch (error) {

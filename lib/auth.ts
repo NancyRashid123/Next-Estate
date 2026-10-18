@@ -10,6 +10,7 @@ export const auth = betterAuth({
   baseURL: process.env.BETTER_AUTH_URL,
    trustedOrigins: [
     "https://next-estate-plum.vercel.app",
+    "https://next-estate-nzf4swolo-nancyrashid123s-projects.vercel.app",
   ],
   socialProviders: {
     google: {

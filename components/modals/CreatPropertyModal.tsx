@@ -230,7 +230,7 @@ export default function CreatPropertyModal() {
             <Input
               name="title"
               id="title"
-              label={t("title")}
+              label={t("titleLabel")}
               value={title}
               onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                 setTitle(e.target.value)

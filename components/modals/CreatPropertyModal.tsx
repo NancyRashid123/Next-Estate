@@ -226,10 +226,11 @@ export default function CreatPropertyModal() {
         {/* Step 4: Title & Description */}
         {step === STEPS.FUTURES && (
           <div className="space-y-6">
+            
             <Input
               name="title"
               id="title"
-              label={t("titleLabel")}
+              label={t("title")}
               value={title}
               onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                 setTitle(e.target.value)

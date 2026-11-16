@@ -1,7 +1,6 @@
-
 # 🏡 Next-Estate
 
-A bilingual real estate platform built with **Next.js**, allowing users to browse property listings, view property details, authenticate securely, and manage their own listings.
+A bilingual real estate platform built with Next.js, allowing users to browse property listings, view property details, authenticate securely, and manage their own listings.
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://next-estate-plum.vercel.app/)
 
@@ -11,29 +10,28 @@ A bilingual real estate platform built with **Next.js**, allowing users to brows
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?logo=prisma)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
 
+<!-- TODO: add 2-3 screenshots here, e.g. home page, property details, Arabic version -->
+<!-- ![Home](./docs/home.png) -->
+
 ## ✨ Features
 
 ### Property Discovery
-
 - Browse property listings.
 - Open dedicated pages with detailed property information.
 - Explore properties through listing and marketplace pages.
 
 ### Authentication & Authorization
-
 - Email-based authentication.
 - Google sign-in using OAuth.
 - Session-based authentication powered by Better Auth.
 - Protected property-management functionality for authenticated users.
 
 ### Property Management
-
 - Create property listings associated with their authenticated owner.
 - Store and manage property images with Cloudinary.
 - Send property inquiries by email using Resend and React Email.
 
 ### Localization & User Experience
-
 - English and Arabic language support using next-intl.
 - Responsive layouts for desktop and mobile screens.
 - Client-side state management with Zustand.
@@ -41,7 +39,7 @@ A bilingual real estate platform built with **Next.js**, allowing users to brows
 ## 🧰 Tech Stack
 
 | Area | Technologies |
-|---|---|
+| --- | --- |
 | Framework | Next.js, React, TypeScript |
 | Styling | Tailwind CSS |
 | Database | PostgreSQL (Neon) |
@@ -55,7 +53,7 @@ A bilingual real estate platform built with **Next.js**, allowing users to brows
 
 ## 🌍 Internationalization
 
-The application supports both English and Arabic. Locale-aware routing and translation messages are managed with `next-intl`.
+The application supports both English and Arabic. Locale-aware routing and translation messages are managed with next-intl.
 
 ## 🗄️ Data Model
 
@@ -66,9 +64,9 @@ The application uses Prisma with PostgreSQL. Its data layer includes authenticat
 ### Prerequisites
 
 - Node.js
-- npm or pnpm.
-- A PostgreSQL database.
-- Credentials for the external services used by the application, such as Google OAuth, Cloudinary, and Resend.
+- npm or pnpm
+- A PostgreSQL database
+- Credentials for the external services used by the application, such as Google OAuth, Cloudinary, and Resend
 
 ### Installation
 
@@ -78,8 +76,7 @@ cd Next-Estate
 npm install
 ```
 
-
-## Environment Configuration
+### Environment Configuration
 
 Create a `.env` file in the root directory of the project and add the following environment variables:
 
@@ -111,6 +108,7 @@ EMAIL_FROM_ADDRESS="your_email_from_address"
 
 Replace the placeholder values with your actual credentials and configuration.
 
+> ⚠️ Never commit your `.env` file. Make sure it is listed in `.gitignore`.
 
 ### Database Setup
 
@@ -139,17 +137,11 @@ npm run start
 
 ## ☁️ Deployment
 
-Deployed on Vercel:
-
-[Live Demo](https://next-estate-plum.vercel.app/)
+Deployed on Vercel: [next-estate-plum.vercel.app](https://next-estate-plum.vercel.app/)
 
 Add the required database and third-party service environment variables to the Vercel project settings.
 
 ## 👩‍💻 Author
 
-**Nancy Rashid**
-
-[GitHub](https://github.com/NancyRashid123)
-
-[Repository](https://github.com/NancyRashid123/Next-Estate)
+**Nancy Rashid** — [GitHub](https://github.com/NancyRashid123)
 

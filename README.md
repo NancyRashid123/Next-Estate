@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next-Estate
+
+A full-featured real estate platform for browsing property listings and managing property ownership. The application supports English and Arabic interfaces and provides authenticated property-management workflows.
+
+## Live Demo
+
+[Open Next-Estate](https://next-estate-plum.vercel.app/)
+
+## Features
+
+- Browse real-estate listings and view individual property details.
+- Search and explore properties through dedicated listing pages.
+- User authentication with email-based sign-in and Google OAuth.
+- Protected user workflows for managing owned properties.
+- Create and manage property listings associated with the authenticated owner.
+- Upload and manage property images using Cloudinary.
+- Send property inquiries using email delivery integration.
+- Localized interface with English and Arabic support using `next-intl`.
+- Responsive interface for desktop and mobile screens.
+
+## Tech Stack
+
+- **Framework:** Next.js App Router, React, TypeScript
+- **Styling:** Tailwind CSS
+- **Database:** PostgreSQL (Neon), Prisma ORM
+- **Authentication:** Better Auth, Google OAuth
+- **State Management:** Zustand
+- **Internationalization:** next-intl
+- **Media Storage:** Cloudinary
+- **Email:** Resend, React Email
+- **Deployment:** Vercel
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js
+- pnpm or npm
+- A PostgreSQL database (the project uses Neon)
+- Credentials for the configured authentication, Cloudinary, and email services
+
+### Installation
+
+```bash
+git clone https://github.com/NancyRashid123/Next-Estate.git
+cd Next-Estate
+npm install
+```
+
+### Environment Variables
+
+Create a `.env` file in the project root and configure the variables required by your local setup. Typical integrations used by this project include:
+
+- Database connection for Neon/PostgreSQL
+- Better Auth secret and base URL
+- Google OAuth client credentials
+- Cloudinary credentials
+- Resend API key and sender configuration
+
+Use the exact variable names expected by the project configuration. Never commit real credentials.
+
+### Run Locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+## Database
 
-To learn more about Next.js, take a look at the following resources:
+The project uses Prisma ORM with PostgreSQL. The Prisma schema includes users, sessions, accounts, verification records, and properties linked to their owners.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The application is deployed on Vercel: [next-estate-plum.vercel.app](https://next-estate-plum.vercel.app/).
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Nancy Rashid**  
+[GitHub Profile](https://github.com/NancyRashid123)
